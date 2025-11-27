@@ -10,9 +10,14 @@ This study integrated gene expression data, microRNA expression data, and protei
 * Based on these limitations, we sought to integrate multiple omics data from breast cancer to propose a new subtype that better explains prognostic differences than the existing PAM50 subtype.
   
 ### 2) MOFA2(Multi Omics Factor Analysis)
+* MOFA2 (Multi Omics Factor Analysis) is an unsupervised learning data integration framework that captures the variability across multiple omics data from the same sample to identify *latent factors*.
+* These latent factors serve as compressed, low-dimensional interpretable representations of the multi-omics dataset, enabling subsequent analyses such as *clustering* and *feature selection*.
+* Each factor assigns weights to samples and features, representing complex data as a few large, easily understandable axes.
 ![mofa](https://github.com/user-attachments/assets/5e9cbab6-ab26-4fd7-a64f-00e60fd3da6c)
-MOFA2 decomposes various omics data as shown in the figure.
-&epsi;
+* MOFA2 decomposes various omics data as shown in the figure.
+* Since Z and W can't accurately reproduce the actual observed values, ε is added to model them as probabilistic noise.
+* MOFA2 performs inference through *stochastic variational Bayesian* methods, which assume prior joint distributions for unobserved variables within the model.
+  
 ## Result
 ### 1) MOFA2 Factor & Cox PH Model  
 ![mofa_result](https://github.com/user-attachments/assets/98995f06-a1fe-48aa-84e7-337fb4686931)
