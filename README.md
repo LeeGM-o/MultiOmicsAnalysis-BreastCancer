@@ -5,9 +5,9 @@ This study integrated gene expression data, microRNA expression data, and protei
 ## Background
 #### 1) Breast Cancer
 <img width="1073" height="512" alt="2" src="https://github.com/user-attachments/assets/bc563f33-4e4a-4fd2-aac2-dd9339981a67"/>
-* Breast cancer is a highly clinically and molecularly heterogeneous cancer type, and the well-established PAM50-based subtypes are widely used to predict prognosis and treatment response.
-* However, multiple studies have shown that heterogeneity exists even within the same subtype, and clinical outcomes vary significan.
-* Based on these limitations, we sought to integrate multiple omics data from breast cancer to propose a new subtype that better explains prognostic differences than the existing PAM50 subtype.
+- Breast cancer is a highly clinically and molecularly heterogeneous cancer type, and the well-established PAM50-based subtypes are widely used to predict prognosis and treatment response.
+- However, multiple studies have shown that heterogeneity exists even within the same subtype, and clinical outcomes vary significan.
+- Based on these limitations, we sought to integrate multiple omics data from breast cancer to propose a new subtype that better explains prognostic differences than the existing PAM50 subtype.
   
 #### 2) MOFA2(Multi Omics Factor Analysis)
 <img width="380" height="408" alt="mofa" src="https://github.com/user-attachments/assets/ff31126d-cf10-4f07-9167-cb5b8688cf42"/>
