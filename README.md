@@ -1,6 +1,5 @@
 # Reconstruction of breast cancer subtypes associated with prognosis through multi-omics integrated analysis
-<img width="1197" height="581" alt="1" src="https://github.com/user-attachments/assets/c1210243-3b81-4b97-8292-eb1dfce64ac3"/>
- This study integrated gene expression data, microRNA expression data, and protein expression data obtained from tumor tissues into *MOFA2* for 481 breast cancer patients in the Cancer Genome Atlas (TCGA) cohort who had not received prior treatment or had no history of disease before their breast cancer diagnosis. The goal was to present new subgroups that better explain prognostic differences than the existing PAM50-based breast cancer subtypes and to identify the key omics signatures and biological pathways driving these differences.
+This study integrated gene expression data, microRNA expression data, and protein expression data obtained from tumor tissues into *MOFA2* for 481 breast cancer patients in the The Cancer Genome Atlas (TCGA) cohort who had not received prior treatment or had no history of disease before their breast cancer diagnosis. The goal was to present new subgroups that better explain prognostic differences than the existing PAM50-based breast cancer subtypes and to identify the key omics signatures and biological pathways driving these differences.
 
 ## Background
 #### 1) Breast Cancer
