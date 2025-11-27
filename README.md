@@ -58,7 +58,7 @@ This study integrated gene expression data, microRNA expression data, and protei
 ![GSEA_C5](https://github.com/user-attachments/assets/8548b86f-79c8-4e89-8a5e-a96b98b96ab7)
 ![GSEA_C2](https://github.com/user-attachments/assets/1cfa9dd9-3334-4b06-a270-bfae7879a376)
 * To identify which pathways were active in the two groups showing different prognoses, GSEA analysis was performed using the C5 and C2 databases from MsigDB. Enrichment analysis revealed that cell proliferation-related pathways were enriched in MOG2 and MOG3, while immune-related pathways were enriched in MOG1.
-*Indeed, multiple cancer studies report that higher cell division and cell cycle activity correlates with faster tumor growth and increased metastasis potential, leading to poorer prognosis. The results in MOG2 and MOG3, which exhibit poorer prognosis, are consistent with this finding.
+* Indeed, multiple cancer studies report that higher cell division and cell cycle activity correlates with faster tumor growth and increased metastasis potential, leading to poorer prognosis. The results in MOG2 and MOG3, which exhibit poorer prognosis, are consistent with this finding.
 * **This provides not only a crucial molecular basis explaining the survival differences observed in MOFA2 but also presents a biological directionality consistent with the multi-omics signature.**
 
 ## Conclusion
