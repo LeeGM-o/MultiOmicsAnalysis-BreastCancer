@@ -52,7 +52,7 @@ This study integrated gene expression data, microRNA expression data, and protei
 > 3. During training, 10-fold cross-validation was used to determine the optimal number of features for each omics dataset.
 * The circular plot allows for intuitive confirmation of which features show high expression in which groups and their associations with other omics features.
 * We focused on features in the network plot that showed strong correlations, with all three omics above 0.8.
-* We identified connections between ACKR1(RNA-seq), PLK1(Protein), and hsa-mir-301a/hsa-mir-210(miRNA) at the feature marked with a red triangle(derived from features common to both omics). 
+* We identified connections between **ACKR1(RNA-seq)**, **PLK1(Protein)**, and **hsa-mir-301a/hsa-mir-210(miRNA)** at the feature marked with a red triangle(derived from features common to both omics). 
 * These features have been reported in previous breast cancer studies to be associated with prognosis. Consistent with prior research, ACKR1 expression was low and PLK1 and hsa-mir-301a, 210 expression was high in MOG2 and MOG3, which have poorer prognosis.
 * **These results indicate that the survival differences observed between MOG groups defined by MOFA2 reflect consistent biological differences at the molecular level, suggesting a multi-layered regulatory mechanism that is difficult to capture with a single omics approach. In conclusion, the analysis using DIABLO effectively demonstrates the characteristics of multi-omics and suggests that the association between ACKR1, PLK1, hsa-mir-301a(hsa-mir-210) could serve as a clinically useful indicator in multi-omics integrated studies related to breast cancer prognosis.**
   
