@@ -31,7 +31,7 @@ This study integrated gene expression data, microRNA expression data, and protei
 ### 2) Cluster Analysis
 ![cluster_anaylsis](https://github.com/user-attachments/assets/3f5ac25b-7c0b-4195-9e08-54fa75e7518a)
 * To create new clusters using information from factors 3, 6, and 13, which were significantly associated with survival, we used the gap statistic and silhouette score to select the optimal k before performing cluster analysis. We selected k=3, which yielded the highest gap statistic, and k=3 also showed a high silhouette score.
-* The three clusters were designated as MOG (Multi Omics Group) 1, 2, and 3. Dimension reduction was performed using umap to visualize the clusters in two dimensions and confirm their patterns.
+* The three clusters were designated as **MOG (Multi Omics Group) 1, 2, and 3**. Dimension reduction was performed using umap to visualize the clusters in two dimensions and confirm their patterns.
 * First, the existing PAM50 subtypes showed unclear clustering patterns, while the groups divided into MOG1, 2, and 3 formed distinct clusters to some extent. The classification into MOG1 and MOG2 was particularly clear.
 * The bar graph confirmed that PAM50 subtypes were distributed across MOG1, MOG2, and MOG3. However, the Basal subtype had the highest proportion in MOG2, while the Luminal A subtype constituted the majority in MOG1.
 
