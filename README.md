@@ -25,7 +25,7 @@ This study integrated gene expression data, microRNA expression data, and protei
 ![mofa_result](https://github.com/user-attachments/assets/98995f06-a1fe-48aa-84e7-337fb4686931)
 * MOFA2 captures the patterns and variability of each omics dataset, compressing them into 15 latent factors and presenting the results as a heatmap and bar plot.
 * The heatmap shows the proportion of *Z* * *W* variance explained by each factor across all datasets, while the bar plot displays the proportion of total variance explained by each factor for each omics type.
-* RNA-seq was confirmed to explain the largest variance. Furthermore, the three omics datasets collectively explain a significant portion of variance within each factor, indicating the presence of **shared biological signals** across the multi-omics data.
+* RNA-seq was confirmed to explain the largest variance. Furthermore, the three omics datasets collectively explain a significant portion of variance within each factor, indicating the presence of **shared biological signals across the multi-omics data**.
 * To assess the prognostic value of MOFA2, a multivariate Cox proportional hazards model was applied using 15 factors. The forest plot showing hazard ratios and confidence intervals revealed that 87 events occurred among the 481 patients, confirming that **factor 3, factor 6, and factor 13** were significantly associated with survival(p<0.05).
 
 ### 2) Cluster Analysis
