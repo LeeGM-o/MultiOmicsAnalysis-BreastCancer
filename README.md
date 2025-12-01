@@ -17,7 +17,7 @@ This study integrated gene expression data, microRNA expression data, and protei
 ![mofa](https://github.com/user-attachments/assets/5e9cbab6-ab26-4fd7-a64f-00e60fd3da6c)
 * MOFA2 decomposes various omics data as shown in the figure.
 * Since *Z* and *W* can't accurately reproduce the actual observed values, ε is added to model them as probabilistic noise.
-* MOFA2 performs inference through *stochastic variational Bayesian* methods, which assume prior joint distributions for unobserved variables within the model.
+* MOFA2 performs inference through **stochastic variational Bayesian** methods, which assume prior joint distributions for unobserved variables within the model.
 * Citation: [Argelaguet R, Velten B, Arnol D, Dietrich S, Zenz T, Marioni JC, et al. Multi-Omics Factor Analysis-a framework for unsupervised integration of multi-omics data sets. Mol Syst Biol. 2018;14:e8124](https://www.embopress.org/doi/full/10.15252/msb.20178124)
   
 ## Result
