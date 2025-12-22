@@ -68,8 +68,8 @@ This study integrated gene expression data, microRNA expression data, and protei
 #### 5-2. C2 - KEGG Pathway
 ![GSEA_C2](https://github.com/user-attachments/assets/1cfa9dd9-3334-4b06-a270-bfae7879a376)
 * To identify which pathways were active in the two groups showing different prognoses, GSEA analysis was performed using the C5 and C2 databases from MsigDB. Enrichment analysis revealed that cell proliferation-related pathways were enriched in MOG2 and MOG3, while immune-related pathways were enriched in MOG1.
-* Indeed, multiple cancer studies report that higher cell division and cell cycle activity correlates with faster tumor growth and increased metastasis potential, leading to poorer prognosis. The results in MOG2 and MOG3, which exhibit poorer prognosis, are consistent with this finding.
-* **This provides not only a crucial molecular basis explaining the survival differences observed in MOFA2 but also presents a biological directionality consistent with the multi-omics signature.**
+* The enrichment of immune-related pathways in MOG1 functionally supports that the network identified in the prior multi-omics signature analysis indeed reflects an immune-active tumor microenvironment.
+* The enrichment of cell cycle and mitosis pathways in MOG2 and MOG3 functionally confirms that the absence of common networks observed in DIABLO and the difference in PAM50 ratios among samples are driven by a proliferation-centric tumor intrinsic program. These biological characteristics align with existing reports associating low immune infiltration with poor prognosis and provide a mechanistic basis explaining the poor clinical outcomes observed for MOG2 and MOG3 in this study.
 
 ## Conclusion
 * It demonstrates that multi-omics integration can compensate for prognostic heterogeneity within subtypes that are difficult to capture using existing PAM50-based subtypes.
