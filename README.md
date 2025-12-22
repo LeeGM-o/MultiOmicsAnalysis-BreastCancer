@@ -59,11 +59,13 @@ This study integrated gene expression data, microRNA expression data, and protei
 > **LCK**: A key switch in T cell immunity, serving as an indicator reflecting the activation and TCR signaling levels of tumor-infiltrating T cells.  
 > **Immunoglobulin family genes**: Reflect the degree of B cell and plasma cell infiltration.  
 > **hsa-mir-150**: An immune-related miRNA specifically expressed in T cells and B cells, delivered to cells via exosomes, acting as a regulator associated with lymphocyte differentiation and maintenance of immune homeostasis.
-* **These results demonstrate the characteristics of multi-omics integration, which is difficult to capture with a single omics approach. They suggest that an immune-active tumor microenvironment, where T cells and B cells are simultaneously activated in MOG1, may be associated with a favorable prognosis due to a high immune response. Furthermore, the network connections among these features indicate their potential as clinically useful indicators in multi-omics integrated studies related to breast cancer prognosis.**
+* **These results demonstrate the characteristics of multi-omics integration, which is difficult to capture with a single omics approach. They suggest that an immune-active tumor microenvironment, where T cells and B cells are simultaneously activated in MOG1, may be associated with a favorable prognosis due to a high immune response. Furthermore, the connections between features revealed in the network structure indicate that they could serve as clinically useful indicators in multi-omics integration studies related to breast cancer prognosis.**
 
   
 ### 5) GSEA Anaylsis
+#### 5-1. C5 - Gene Ontology Biological Process
 ![GSEA_C5](https://github.com/user-attachments/assets/8548b86f-79c8-4e89-8a5e-a96b98b96ab7)
+#### 5-2. C2 - KEGG Pathway
 ![GSEA_C2](https://github.com/user-attachments/assets/1cfa9dd9-3334-4b06-a270-bfae7879a376)
 * To identify which pathways were active in the two groups showing different prognoses, GSEA analysis was performed using the C5 and C2 databases from MsigDB. Enrichment analysis revealed that cell proliferation-related pathways were enriched in MOG2 and MOG3, while immune-related pathways were enriched in MOG1.
 * Indeed, multiple cancer studies report that higher cell division and cell cycle activity correlates with faster tumor growth and increased metastasis potential, leading to poorer prognosis. The results in MOG2 and MOG3, which exhibit poorer prognosis, are consistent with this finding.
