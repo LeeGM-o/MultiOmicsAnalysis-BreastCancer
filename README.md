@@ -56,8 +56,10 @@ This study integrated gene expression data, microRNA expression data, and protei
 * The circular plot allows for an intuitive visualization of which features show high expression in specific groups and their associations with other omics features.
 * In a network plot represented solely by connections between features with Pearson correlation coefficients of |0.7| or higher, a network structure showing positive correlations formed between *LCK*(protein), *hsa-miR-150*(miRNA), and *Immunoglobulin(IG) family genes*(RNA-seq), with high expression of these features observed in MOG1.
 * These features were indeed reported in the paper to be associated with immune responses in the **tumor microenvironment**.   
-> **LCK**: A key switch in T cell immunity, serving as an indicator reflecting the activation and TCR signaling levels of tumor-infiltrating T cells.   
-> **Immunoglobulin family genes**: Reflect the degree of B cell and plasma cell infiltration.
+> **LCK**: A key switch in T cell immunity, serving as an indicator reflecting the activation and TCR signaling levels of tumor-infiltrating T cells.  
+
+> **Immunoglobulin family genes**: Reflect the degree of B cell and plasma cell infiltration.  
+ 
 > **hsa-mir-150**: An immune-related miRNA specifically expressed in T cells and B cells, delivered to cells via exosomes, acting as a regulator associated with lymphocyte differentiation and maintenance of immune homeostasis.
 * **These results demonstrate the characteristics of multi-omics integration, which is difficult to capture with a single omics approach. They suggest that an immune-active tumor microenvironment, where T cells and B cells are simultaneously activated in MOG1, may be associated with a favorable prognosis due to a high immune response. Furthermore, the network connections among these features indicate their potential as clinically useful indicators in multi-omics integrated studies related to breast cancer prognosis.**
 
