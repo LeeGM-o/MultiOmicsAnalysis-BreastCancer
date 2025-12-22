@@ -44,17 +44,23 @@ This study integrated gene expression data, microRNA expression data, and protei
 * Subsequent analyses focused on MOG1-2 and MOG1-3, where significant prognostic differences were evident in survival curves.
 
 ### 4) Multi-omics Signature Anaylsis
-![MO_signature_analysis](https://github.com/user-attachments/assets/efd6801b-65ea-4e88-886b-fe33e4429cde)
+#### 4-1. mixOmics - DIABLO
+![DIABLO](https://github.com/user-attachments/assets/4adc3aad-2508-4239-b7e9-43a1929398b6)
 * We employed the *DIABLO* framework from mixomics to identify key features exhibiting expression differences between the two groups showing differential prognosis.
 * *DIABLO* is a supervised learning-based framework that learns covariate relationships across different omics datasets to identify features that effectively distinguish specific groups.
 > 1. When the input X is provided as a list of each omics data frame and the group class labels are provided in Y, training proceeds using the Sparse Partial Least Squares Discriminant Analysis(sPLS-DA) algorithm. This algorithm creates a weighted sum of the features from each omics in X to maximize the covariance with Y.
 > 2. This process defines common latent components, similar to dimension reduction, selecting key features most contributing to group differentiation across each omics while also accounting for correlations between omics.
 > 3. During training, 10-fold cross-validation was used to determine the optimal number of features for each omics dataset.
-* The circular plot allows for intuitive confirmation of which features show high expression in which groups and their associations with other omics features.
-* We focused on features in the network plot that showed strong correlations, with all three omics above 0.8.
-* We identified connections between **ACKR1(RNA-seq)**, **PLK1(Protein)**, and **hsa-mir-301a/hsa-mir-210(miRNA)** at the feature marked with a red triangle(derived from features common to both omics). 
-* These features have been reported in previous breast cancer studies to be associated with prognosis. Consistent with prior research, ACKR1 expression was low and PLK1 and hsa-mir-301a, 210 expression was high in MOG2 and MOG3, which have poorer prognosis.
-* **These results indicate that the survival differences observed between MOG groups defined by MOFA2 reflect consistent biological differences at the molecular level, suggesting a multi-layered regulatory mechanism that is difficult to capture with a single omics approach. In conclusion, the analysis using DIABLO effectively demonstrates the characteristics of multi-omics and suggests that the association between ACKR1, PLK1, hsa-mir-301a(hsa-mir-210) could serve as a clinically useful indicator in multi-omics integrated studies related to breast cancer prognosis.**
+#### 4-2. Circular & Network plot
+![MOS_analysis](https://github.com/user-attachments/assets/58a1ed20-ee42-4da9-b4cf-ccd9128c9704)
+* The circular plot allows for an intuitive visualization of which features show high expression in specific groups and their associations with other omics features.
+* In a network plot represented solely by connections between features with Pearson correlation coefficients of |0.7| or higher, a network structure showing positive correlations formed between *LCK*(protein), *hsa-miR-150*(miRNA), and *Immunoglobulin(IG) family genes*(RNA-seq), with high expression of these features observed in MOG1.
+* These features were indeed reported in the paper to be associated with immune responses in the **tumor microenvironment**.
+> **LCK**: A key switch in T cell immunity, serving as an indicator reflecting the activation and TCR signaling levels of tumor-infiltrating T cells.
+> **Immunoglobulin family genes**: Reflect the degree of B cell and plasma cell infiltration.
+> **hsa-mir-150**: An immune-related miRNA specifically expressed in T cells and B cells, delivered to cells via exosomes, acting as a regulator associated with lymphocyte differentiation and maintenance of immune homeostasis.
+* **These results demonstrate the characteristics of multi-omics integration, which is difficult to capture with a single omics approach. They suggest that an immune-active tumor microenvironment, where T cells and B cells are simultaneously activated in MOG1, may be associated with a favorable prognosis due to a high immune response. Furthermore, the network connections among these features indicate their potential as clinically useful indicators in multi-omics integrated studies related to breast cancer prognosis.**
+
   
 ### 5) GSEA Anaylsis
 ![GSEA_C5](https://github.com/user-attachments/assets/8548b86f-79c8-4e89-8a5e-a96b98b96ab7)
