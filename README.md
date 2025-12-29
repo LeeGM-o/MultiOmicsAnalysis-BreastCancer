@@ -43,7 +43,7 @@ This study integrated gene expression data, microRNA expression data, and protei
 * **These results demonstrate that multi-omics integration can complement and explain prognostic differences that are difficult to account for using only the existing PAM50-based subtypes, emphasizing the necessity of multi-omics integration**. 
 * Subsequent analyses focused on MOG1-2 and MOG1-3, where significant prognostic differences were evident in survival curves.
 
-### 4) Multi-omics Signature Anaylsis
+### 4) Multi-omics Signature Analysis
 #### 4-1. mixOmics - DIABLO
 ![DIABLO](https://github.com/user-attachments/assets/883fa656-4e14-420e-bdd3-9c61432e2e01)
 * We employed the *DIABLO* framework from mixOmics to identify key features exhibiting expression differences between the two groups showing differential prognosis.
@@ -62,7 +62,7 @@ This study integrated gene expression data, microRNA expression data, and protei
 * **These results demonstrate the characteristics of multi-omics integration, which is difficult to capture with a single omics approach. They suggest that an immune-active tumor microenvironment, where T cells and B cells are simultaneously activated in MOG1, may be associated with a favorable prognosis due to a high immune response. Furthermore, the connections between features revealed in the network structure indicate that they could serve as clinically useful indicators in multi-omics integration studies related to breast cancer prognosis.**
 
   
-### 5) GSEA Anaylsis
+### 5) GSEA Analysis
 #### 5-1. C5 - Gene Ontology Biological Process
 ![GSEA_C5](https://github.com/user-attachments/assets/8548b86f-79c8-4e89-8a5e-a96b98b96ab7)
 #### 5-2. C2 - KEGG Pathway
