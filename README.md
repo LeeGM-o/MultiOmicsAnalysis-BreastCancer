@@ -29,7 +29,7 @@ We then performed survival analysis to determine if there were differences in pr
 
 ### 4) Multi-omics Signature Analysis
 #### 4-1. mixOmics - DIABLO
-![DIABLO](https://github.com/user-attachments/assets/883fa656-4e14-420e-bdd3-9c61432e2e01)
+![DIABLO](https://github.com/user-attachments/assets/883fa656-4e14-420e-bdd3-9c61432e2e01)  
 We employed the *DIABLO* framework from mixOmics to identify key features exhibiting expression differences between the two groups showing differential prognosis. *DIABLO* is a supervised learning-based framework that learns covariate relationships across different omics datasets to identify features that effectively distinguish specific groups.  
 > 1. When the input X is provided as a list of each omics data frame and the group class labels are provided in Y, training proceeds using the Sparse Partial Least Squares Discriminant Analysis(sPLS-DA) algorithm. This algorithm creates a weighted sum of the features from each omics in X to maximize the covariance with Y.
 > 2. This process defines common latent components, similar to dimension reduction, selecting key features most contributing to group differentiation across each omics while also accounting for correlations between omics.
@@ -40,14 +40,14 @@ The circular plot allows for an intuitive visualization of which features show h
 > 1. **LCK**: A key switch in T cell immunity, serving as an indicator reflecting the activation and TCR signaling levels of tumor-infiltrating T cells.  
 > 2. **Immunoglobulin family genes**: Reflect the degree of B cell and plasma cell infiltration.  
 > 3. **hsa-mir-150**: An immune-related miRNA specifically expressed in T cells and B cells, delivered to cells via exosomes, acting as a regulator associated with lymphocyte differentiation and maintenance of immune homeostasis.
-> 4. **These results demonstrate the characteristics of multi-omics integration, which is difficult to capture with a single omics approach. They suggest that an immune-active tumor microenvironment, where T cells and B cells are simultaneously activated in MOG1, may be associated with a favorable prognosis due to a high immune response. Furthermore, the connections between features revealed in the network structure indicate that they could serve as clinically useful indicators in multi-omics integration studies related to breast cancer prognosis.**
+**These results demonstrate the characteristics of multi-omics integration, which is difficult to capture with a single omics approach. They suggest that an immune-active tumor microenvironment, where T cells and B cells are simultaneously activated in MOG1, may be associated with a favorable prognosis due to a high immune response. Furthermore, the connections between features revealed in the network structure indicate that they could serve as clinically useful indicators in multi-omics integration studies related to breast cancer prognosis.**
 
   
 ### 5) GSEA Analysis
 #### 5-1. C5 - Gene Ontology Biological Process
-![GSEA_C5](https://github.com/user-attachments/assets/8548b86f-79c8-4e89-8a5e-a96b98b96ab7)
+![GSEA_C5](https://github.com/user-attachments/assets/8548b86f-79c8-4e89-8a5e-a96b98b96ab7)  
 #### 5-2. C2 - KEGG Pathway
-![GSEA_C2](https://github.com/user-attachments/assets/1cfa9dd9-3334-4b06-a270-bfae7879a376)
+![GSEA_C2](https://github.com/user-attachments/assets/1cfa9dd9-3334-4b06-a270-bfae7879a376)  
 To identify which pathways were active in the two groups showing different prognoses, GSEA analysis was performed using the C5 and C2 databases from MsigDB. Enrichment analysis revealed that cell proliferation-related pathways were enriched in MOG2 and MOG3, while immune-related pathways were enriched in MOG1. The enrichment of immune-related pathways in MOG1 functionally supports that the network identified in the prior multi-omics signature analysis indeed reflects an immune-active tumor microenvironment. The enrichment of cell cycle and mitosis pathways in MOG2 and MOG3 functionally confirms that the absence of common networks observed in DIABLO and the difference in PAM50 ratios among samples are driven by a proliferation-centric tumor intrinsic program. These biological characteristics align with existing reports associating low immune infiltration with poor prognosis and provide a mechanistic basis explaining the poor clinical outcomes observed for MOG2 and MOG3 in this study.
 
 ## Conclusion
