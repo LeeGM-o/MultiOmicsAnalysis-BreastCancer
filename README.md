@@ -40,6 +40,7 @@ The circular plot allows for an intuitive visualization of which features show h
 > 1. **LCK**: A key switch in T cell immunity, serving as an indicator reflecting the activation and TCR signaling levels of tumor-infiltrating T cells.  
 > 2. **Immunoglobulin family genes**: Reflect the degree of B cell and plasma cell infiltration.  
 > 3. **hsa-mir-150**: An immune-related miRNA specifically expressed in T cells and B cells, delivered to cells via exosomes, acting as a regulator associated with lymphocyte differentiation and maintenance of immune homeostasis.  
+
 **These results demonstrate the characteristics of multi-omics integration, which is difficult to capture with a single omics approach. They suggest that an immune-active tumor microenvironment, where T cells and B cells are simultaneously activated in MOG1, may be associated with a favorable prognosis due to a high immune response. Furthermore, the connections between features revealed in the network structure indicate that they could serve as clinically useful indicators in multi-omics integration studies related to breast cancer prognosis.**
 
   
